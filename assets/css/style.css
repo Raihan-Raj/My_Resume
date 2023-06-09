@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #fff;
 }
 
 a {
@@ -198,12 +198,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Raju1.jpg") top center;
+  /* background: url("../img/Raju1.jpg") top center; */
   background-size: cover;
 }
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -261,7 +261,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #000;
 }
 
 .section-title {
@@ -273,7 +273,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #0dcaf0;
 }
 .section-title h2::after {
   content: "";
@@ -295,7 +295,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #0dcaf0;
 }
 .about .content ul {
   list-style: none;
@@ -341,7 +341,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #f8f9fa;
   margin-left: 60px;
 }
 .facts .count-box p {
@@ -349,7 +349,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #fff;
 }
 .facts .count-box a {
   font-weight: 600;
@@ -380,7 +380,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #fff;
 }
 .skills .progress .skill .val {
   float: right;
@@ -405,7 +405,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #fff;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
@@ -419,12 +419,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #fff;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #212529;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -629,7 +629,7 @@ section {
   font-size: 18px;
 }
 .services .title a {
-  color: #343a40;
+  color: #fff;
 }
 .services .title a:hover {
   color: #149ddd;
@@ -660,7 +660,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #fff;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -686,7 +686,7 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background: #000;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -952,3 +952,40 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+/* body section start */
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap");
+
+/* div {
+	width: 100%;
+} */
+/* h1 {
+	font-family: "Chivo", sans-serif;
+	font-size: max(16vw, 20pt);
+	text-align: center;
+	line-height: 0.8;
+	color: rgba(0, 0, 0, 0.688);
+	mix-blend-mode: screen;
+	background-image: url("https://assets.codepen.io/4787486/stars.jpg");
+	background-size: contain;
+	background-position: center;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: filter 6s ease-out;
+} */
+
+body {
+	/* min-height: 100vh; */
+	/* display: grid; */
+	place-items: center;
+	background-image: url("https://assets.codepen.io/4787486/night-stars.jpg");
+	background-size: cover;
+	background-position: center left;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* body section end */
